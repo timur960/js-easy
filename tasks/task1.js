@@ -2,22 +2,8 @@
 // на певний символ, наприклад *.
 
 function replaceVowels(str) {
-	// Створюємо масив з голосними
-	const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
-	// Створюємо порожній рядок для збереження результату
-	let result = '';
-	
-	for (let char of str) {
-	  // Якщо символ є голосною, додаємо '*' до результату, інакше додаємо сам символ
-	  if (vowels.includes(char)) {
-		result += '*';
-	  } else {
-		result += char;
-	  }
-	}
-	
-	return result;
-  }
+  // Ваш код тут
+}
 
 console.log(replaceVowels("hello world")); // Виведе: "h*ll* w*rld"
 console.log(replaceVowels("Javascript"));  // Виведе: "J*v*scr*pt"
